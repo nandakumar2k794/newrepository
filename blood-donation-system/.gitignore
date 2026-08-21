@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+venv/
+env/
+ENV/
+
+# Python cache & build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# React build outputs
+dist/
+build/
+
+# Environment & Config secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files & reports
+generate_report_doc.py
+*.docx
+*.tmp
+~*
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
